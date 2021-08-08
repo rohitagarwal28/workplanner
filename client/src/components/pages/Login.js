@@ -30,7 +30,7 @@ const Login = () => {
   const { email, password } = formData;
 
   useEffect(() => {
-    document.title = 'TrelloClone | Sign In';
+    document.title = 'Work Planner | Sign In';
   }, []);
 
   const onChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -49,7 +49,7 @@ const Login = () => {
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component='h1' variant='h4'>
-          TrelloClone
+        Work Planner
         </Typography>
         <Typography component='h1' variant='h5'>
           Sign in

@@ -17,7 +17,7 @@ const Dashboard = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    document.title = 'Your Boards | TrelloClone';
+    document.title = 'Your Boards | WorkPlanner';
   }, []);
 
   if (!isAuthenticated) {

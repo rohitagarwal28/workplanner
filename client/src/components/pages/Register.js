@@ -31,7 +31,7 @@ const Register = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    document.title = 'TrelloClone | Sign Up';
+    document.title = 'Work Planner | Sign Up';
   }, []);
 
   const { name, email, password, password2 } = formData;
@@ -56,7 +56,7 @@ const Register = () => {
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component='h1' variant='h4'>
-          TrelloClone
+        Work Planner
         </Typography>
         <Typography component='h1' variant='h5'>
           Sign up
